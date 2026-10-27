@@ -100,31 +100,6 @@ The training notebook is available in:
 
 It includes data loading, preprocessing, CNN creation, training, validation, evaluation, and model saving.
 
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/rkraj25/plant-disease-prediction-cnn-deep-leaning-project-main.git
-cd plant-disease-prediction-cnn-deep-leaning-project-main
-python -m venv venv
-venv\Scripts\activate
-pip install -r app/requirements.txt
-```
-
-## ▶️ Run the Application
-
-```bash
-cd app
-streamlit run main.py
-```
-
-The application will normally open at `http://localhost:8501`.
-
-## 🐳 Docker
-
-```bash
-docker build -t plant-disease-classifier ./app
-docker run -p 8501:8501 plant-disease-classifier
-```
 
 ## ⚠️ Limitations
 
@@ -146,16 +121,3 @@ This project is intended for **educational and research purposes**.
 
 `python` `deep-learning` `cnn` `tensorflow` `keras` `computer-vision` `plant-disease` `machine-learning` `image-classification` `streamlit`
 
-## 👨‍💻 Author
-
-**Raj Karmankar**
-
-[GitHub](https://github.com/rkraj25)
-
-## ⭐ Support
-
-If you like this project, consider giving the repository a ⭐.
-
-## 📜 License
-
-For **educational and research purposes**.
